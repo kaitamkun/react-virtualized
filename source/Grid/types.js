@@ -1,6 +1,5 @@
 // @flow
 
-import React from 'react';
 import type {Element as ReactElement} from 'react';
 import ScalingCellSizeAndPositionManager from './utils/ScalingCellSizeAndPositionManager';
 
