@@ -3,7 +3,7 @@ import InfiniteLoader, {
   isRangeVisible,
   scanForUnloadedRanges,
 } from './InfiniteLoader';
-import * as React from 'react';
+import React from 'react';
 import List from '../List';
 import {render} from '../TestUtils';
 

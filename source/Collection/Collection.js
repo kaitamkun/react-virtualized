@@ -1,6 +1,6 @@
 /** @flow */
 import PropTypes from 'prop-types';
-import * as React from 'react';
+import React from 'react';
 import CollectionView from './CollectionView';
 import calculateSizeAndPositionData from './utils/calculateSizeAndPositionData';
 import getUpdatedOffsetForIndex from '../utils/getUpdatedOffsetForIndex';

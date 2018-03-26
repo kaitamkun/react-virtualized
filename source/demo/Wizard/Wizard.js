@@ -1,6 +1,6 @@
 import cn from 'classnames';
 import CodeMirror from 'react-codemirror';
-import * as React from 'react';
+import React from 'react';
 import {ContentBox, ContentBoxHeader} from '../ContentBox';
 import generate from './Generator';
 import styles from './Wizard.css';

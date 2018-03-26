@@ -1,6 +1,7 @@
 /** @flow */
 
-import * as React from 'react';
+import React from 'react';
+import type {Element} from 'react';
 import createDetectElementResize from '../vendor/detectElementResize';
 
 type Size = {
@@ -10,7 +11,7 @@ type Size = {
 
 type Props = {
   /** Function responsible for rendering children.*/
-  children: Size => React.Element<*>,
+  children: Size => Element<*>,
 
   /** Optional custom CSS class name to attach to root AutoSizer element.  */
   className?: string,

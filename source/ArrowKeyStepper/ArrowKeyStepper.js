@@ -3,7 +3,8 @@
 import type {RenderedSection} from '../Grid';
 import type {ScrollIndices} from './types';
 
-import * as React from 'react';
+import React from 'react';
+import type {Element as ReactElement} from 'react';
 import polyfill from 'react-lifecycles-compat';
 
 /**
@@ -17,7 +18,7 @@ type ChildrenParams = {
 };
 
 type Props = {
-  children: (params: ChildrenParams) => React.Element<*>,
+  children: (params: ChildrenParams) => ReactElement<*>,
   className?: string,
   columnCount: number,
   disabled: boolean,

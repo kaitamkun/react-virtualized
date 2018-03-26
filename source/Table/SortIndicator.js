@@ -1,6 +1,6 @@
 import cn from 'classnames';
 import PropTypes from 'prop-types';
-import * as React from 'react';
+import React from 'react';
 import SortDirection from './SortDirection';
 
 /**

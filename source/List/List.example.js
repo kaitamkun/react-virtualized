@@ -1,7 +1,7 @@
 import cn from 'classnames';
 import Immutable from 'immutable';
 import PropTypes from 'prop-types';
-import * as React from 'react';
+import React from 'react';
 import styles from './List.example.css';
 import AutoSizer from '../AutoSizer';
 import List from './List';

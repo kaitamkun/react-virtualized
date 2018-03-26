@@ -1,6 +1,6 @@
 import Immutable from 'immutable';
 import PropTypes from 'prop-types';
-import * as React from 'react';
+import React from 'react';
 import CellMeasurer from './CellMeasurer';
 import CellMeasurerCache from './CellMeasurerCache';
 import {Column, Table} from '../Table';

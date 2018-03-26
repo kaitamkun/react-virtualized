@@ -3,7 +3,7 @@
  * @flow
  */
 import getScrollbarSize from 'dom-helpers/util/scrollbarSize';
-import * as React from 'react';
+import React from 'react';
 import {findDOMNode} from 'react-dom';
 import {Simulate} from 'react-dom/test-utils';
 import {render} from '../TestUtils';

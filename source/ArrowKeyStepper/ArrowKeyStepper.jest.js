@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import {findDOMNode} from 'react-dom';
 import {render} from '../TestUtils';
 import ArrowKeyStepper from './ArrowKeyStepper';

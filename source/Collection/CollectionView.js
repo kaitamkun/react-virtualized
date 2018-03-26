@@ -1,7 +1,7 @@
 /** @flow */
 import cn from 'classnames';
 import PropTypes from 'prop-types';
-import * as React from 'react';
+import React from 'react';
 import polyfill from 'react-lifecycles-compat';
 import createCallbackMemoizer from '../utils/createCallbackMemoizer';
 import getScrollbarSize from 'dom-helpers/util/scrollbarSize';

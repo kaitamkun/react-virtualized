@@ -5,7 +5,7 @@ import type {CellPosition} from '../Grid';
 import cn from 'classnames';
 import Column from './Column';
 import PropTypes from 'prop-types';
-import * as React from 'react';
+import React from 'react';
 import {findDOMNode} from 'react-dom';
 import Grid, {accessibilityOverscanIndicesGetter} from '../Grid';
 

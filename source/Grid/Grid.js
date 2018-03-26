@@ -15,7 +15,8 @@ import type {
 } from './types';
 import type {AnimationTimeoutId} from '../utils/requestAnimationTimeout';
 
-import * as React from 'react';
+import React from 'react';
+import type {Element as ReactElement} from 'react';
 import cn from 'classnames';
 import calculateSizeAndPositionDataAndUpdateScrollOffset from './utils/calculateSizeAndPositionDataAndUpdateScrollOffset';
 import ScalingCellSizeAndPositionManager from './utils/ScalingCellSizeAndPositionManager';
@@ -292,7 +293,7 @@ export default class Grid extends React.PureComponent<Props, State> {
   _scrollbarSizeMeasured = false;
   _scrollingContainer: Element;
 
-  _childrenToDisplay: React.Element<*>[];
+  _childrenToDisplay: ReactElement<*>[];
 
   _renderedColumnStartIndex = 0;
   _renderedColumnStopIndex = 0;

@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import * as React from 'react';
+import React from 'react';
 
 /**
  * HOC that simplifies the process of synchronizing scrolling between two or more virtualized components.

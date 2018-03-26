@@ -1,6 +1,6 @@
 /** @flow */
 import PropTypes from 'prop-types';
-import * as React from 'react';
+import React from 'react';
 import defaultHeaderRenderer from './defaultHeaderRenderer';
 import defaultCellRenderer from './defaultCellRenderer';
 import defaultCellDataGetter from './defaultCellDataGetter';

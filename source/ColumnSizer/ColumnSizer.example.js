@@ -1,7 +1,7 @@
 /**
  * @flow
  */
-import * as React from 'react';
+import React from 'react';
 import styles from './ColumnSizer.example.css';
 import AutoSizer from '../AutoSizer';
 import ColumnSizer from './ColumnSizer';

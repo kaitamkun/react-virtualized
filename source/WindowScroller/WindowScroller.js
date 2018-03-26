@@ -1,6 +1,7 @@
 // @flow
 
-import * as React from 'react';
+import React from 'react';
+import type {Node as ReactNode} from 'react';
 import * as ReactDOM from 'react-dom';
 import {
   registerScrollListener,
@@ -27,7 +28,7 @@ type Props = {
     scrollLeft: number,
     scrollTop: number,
     width: number,
-  }) => React.Node,
+  }) => ReactNode,
 
   /** Callback to be invoked on-resize: ({ height, width }) */
   onResize: ({height: number, width: number}) => void,
